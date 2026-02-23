@@ -17,12 +17,12 @@
     {
       "name": "Sega CD",
       "url": "https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_segacd/CHD-SegaCD-NTSC/",
-      "download_dir": "~/RetroPie/roms/sega-cd"
+      "download_dir": "~/RetroPie/roms/segacd"
     },
     {
       "name": "Sega Genesis",
       "url": "https://myrient.erista.me/files/No-Intro/Sega%20-%20Mega%20Drive%20-%20Genesis/",
-      "download_dir": "~/RetroPie/roms/genesis",
+      "download_dir": "~/RetroPie/roms/megadrive",
       "auto_unzip": true,
       "delete_after_unzip": true
     },
@@ -67,6 +67,13 @@
       "download_dir": "~/RetroPie/roms/gb",
       "auto_unzip": true,
       "delete_after_unzip": true
+    },
+    {
+      "name": "FinalBurn Neo",
+      "url": "https://myrient.erista.me/files/Internet%20Archive/chadmaster/fbnarcade-fullnonmerged/arcade/",
+      "download_dir": "~/RetroPie/roms/arcade",
+      "auto_unzip": false,
+      "delete_after_unzip": false
     }
   ],
   "download_dir": "~/Downloads",

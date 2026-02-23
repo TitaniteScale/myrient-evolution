@@ -228,7 +228,7 @@ class Renderer:
                 "Search: Y     Refresh: Select     Back: B     Quit: Start/Esc"
             )
 
-        self._render_chrome(title=f"happy-crush  --  {name}", controls_hint=hint)
+        self._render_chrome(title=f"Myrient: Evolution  --  {name}", controls_hint=hint)
 
         if self.search_mode:
             list_top = self._render_search_box()
