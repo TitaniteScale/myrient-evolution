@@ -1,0 +1,36 @@
+{
+  "urls": [
+    {
+      "name": "PlayStation 1 (CHD)",
+      "url": "https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_psx/CHD-PSX-USA/",
+      "download_dir": "~/Downloads/PS1",
+      "auto_unzip": false,
+      "delete_after_unzip": false
+    },
+    {
+      "name": "Game Boy Advance",
+      "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/",
+      "download_dir": "~/Downloads/GBA",
+      "auto_unzip": true,
+      "delete_after_unzip": true
+    },
+    {
+      "name": "Game Boy Color",
+      "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Color/",
+      "download_dir": "~/Downloads/GBC",
+      "auto_unzip": false,
+      "delete_after_unzip": false
+    },
+    {
+      "name": "Game Boy",
+      "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy/",
+      "download_dir": "~/Downloads/GB",
+      "auto_unzip": false,
+      "delete_after_unzip": false
+    }
+  ],
+  "download_dir": "~/Downloads",
+  "link_selector": "a[href] attr{href}",
+  "auto_unzip": false,
+  "delete_after_unzip": false
+}

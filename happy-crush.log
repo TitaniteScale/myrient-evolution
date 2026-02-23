@@ -1,0 +1,7 @@
+2026-02-23 12:08:01,211  INFO      DownloadManager starting thread for: https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Pokemon%20-%20Emerald%20Version%20%28USA%2C%20Europe%29.zip
+2026-02-23 12:08:01,212  INFO      Starting download: https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Pokemon%20-%20Emerald%20Version%20%28USA%2C%20Europe%29.zip -> /home/jake/Downloads/GBA
+2026-02-23 12:08:04,233  DEBUG     wget stderr: 2026-02-23 12:08:04 URL:https://f5.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/Pokemon%20-%20Emerald%20Version%20%28USA%2C%20Europe%29.zip [6976143/6976143] -> "/home/jake/Downloads/GBA/Pokemon - Emerald Version (USA, Europe).zip" [1]
+2026-02-23 12:08:04,233  DEBUG     Expecting file at: /home/jake/Downloads/GBA/Pokemon - Emerald Version (USA, Europe).zip  (exists=True)
+2026-02-23 12:08:04,233  INFO      Download complete: /home/jake/Downloads/GBA/Pokemon - Emerald Version (USA, Europe).zip
+2026-02-23 12:08:04,251  INFO      Unzipping /home/jake/Downloads/GBA/Pokemon - Emerald Version (USA, Europe).zip -> /home/jake/Downloads/GBA
+2026-02-23 12:08:04,318  INFO      Deleted archive after unzip: /home/jake/Downloads/GBA/Pokemon - Emerald Version (USA, Europe).zip
