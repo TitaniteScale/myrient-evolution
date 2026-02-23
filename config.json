@@ -1,32 +1,72 @@
 {
   "urls": [
     {
-      "name": "PlayStation 1 (CHD)",
+      "name": "PlayStation 1",
       "url": "https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_psx/CHD-PSX-USA/",
-      "download_dir": "~/Downloads/PS1",
+      "download_dir": "~/RetroPie/roms/psx",
       "auto_unzip": false,
       "delete_after_unzip": false
     },
     {
+      "name": "Dreamcast",
+      "url": "https://myrient.erista.me/files/Internet%20Archive/chadmaster/dc-chd-zstd-redump/dc-chd-zstd/",
+      "download_dir": "~/RetroPie/roms/dreamcast",
+      "auto_unzip": false,
+      "delete_after_unzip": false
+    },
+    {
+      "name": "Sega CD",
+      "url": "https://myrient.erista.me/files/Internet%20Archive/chadmaster/chd_segacd/CHD-SegaCD-NTSC/",
+      "download_dir": "~/RetroPie/roms/sega-cd"
+    },
+    {
+      "name": "Sega Genesis",
+      "url": "https://myrient.erista.me/files/No-Intro/Sega%20-%20Mega%20Drive%20-%20Genesis/",
+      "download_dir": "~/RetroPie/roms/genesis",
+      "auto_unzip": true,
+      "delete_after_unzip": true
+    },
+    {
+      "name": "Nintendo 64",
+      "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%2064%20(BigEndian)/",
+      "download_dir": "~/RetroPie/roms/n64",
+      "auto_unzip": true,
+      "delete_after_unzip": true
+    },
+    {
+      "name": "Super Nintendo",
+      "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/",
+      "download_dir": "~/RetroPie/roms/snes",
+      "auto_unzip": true,
+      "delete_after_unzip": true
+    },
+    {
+      "name": "Nintendo Entertainment System",
+      "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headered)/",
+      "download_dir": "~/RetroPie/roms/nes",
+      "auto_unzip": true,
+      "delete_after_unzip": true
+    },
+    {
       "name": "Game Boy Advance",
       "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Advance/",
-      "download_dir": "~/Downloads/GBA",
+      "download_dir": "~/RetroPie/roms/gba",
       "auto_unzip": true,
       "delete_after_unzip": true
     },
     {
       "name": "Game Boy Color",
       "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy%20Color/",
-      "download_dir": "~/Downloads/GBC",
-      "auto_unzip": false,
-      "delete_after_unzip": false
+      "download_dir": "~/RetroPie/roms/gbc",
+      "auto_unzip": true,
+      "delete_after_unzip": true
     },
     {
       "name": "Game Boy",
       "url": "https://myrient.erista.me/files/No-Intro/Nintendo%20-%20Game%20Boy/",
-      "download_dir": "~/Downloads/GB",
-      "auto_unzip": false,
-      "delete_after_unzip": false
+      "download_dir": "~/RetroPie/roms/gb",
+      "auto_unzip": true,
+      "delete_after_unzip": true
     }
   ],
   "download_dir": "~/Downloads",

@@ -16,8 +16,11 @@ Expected attributes on self (provided by HappyCrush.__init__):
   _active_links(), _search_visible_rows()
 """
 
+from urllib.parse import unquote
+
 import pygame
 import pygame.freetype
+
 from constants import (
     BG_COLOR,
     DIM_COLOR,
@@ -239,12 +242,14 @@ class Renderer:
                 scroll_offset=self.search_scroll_offset,
                 top_y=list_top,
                 max_rows=self._search_visible_rows(),
+                label_fn=lambda url: unquote(url.rstrip("/").split("/")[-1]),
             )
         else:
             self._render_list(
                 items=self.links,
                 cursor=self.link_cursor,
                 scroll_offset=self.link_scroll_offset,
+                label_fn=lambda url: unquote(url.rstrip("/").split("/")[-1]),
             )
 
     # ------------------------------------------------------------------
